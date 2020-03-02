@@ -1,0 +1,89 @@
+/* #service .items {
+  display: block;
+  padding: 1rem;
+}
+
+/* Align icon to left */
+/* #service .items .item {
+  display: flex;
+  text-align: left;
+} */
+
+/* Position icon */
+/* #service .items .item i {
+  margin-right: 1.3rem;
+  align-self: center;
+  margin-bottom: 0;
+} */
+
+#service {
+  position: relative;
+  min-height: 420px;
+  background: url('../img/lights.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+/* Smartphones */
+@media(max-width: 00px) {
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+    display: sticky;
+  }
+
+  /* #navbar .logo {
+    margin-bottom: 0.5rem;
+    text-align: center;
+  } */
+
+  /* #navbar  {
+    display: sticky;
+  }
+
+  #showcase .carousel-slide {
+    top: 110px;
+  }
+
+  #product{
+    display: block;
+  }
+
+  #product .product-img {
+    display: none;
+  }
+
+  #clients .items img {
+    width: 80%;
+  }
+
+  #clients .items div:last-child {
+    display: none;
+  }
+
+  #contact {
+    flex-direction: column;
+  }
+
+  #contact .map {
+    height: 200px;
+    border-top: 4px solid #333;
+  }
+}
+
+@media(max-height: 568px) {
+  #showcase .carousel-slide {
+    margin-top: -2rem;
+    top: 140px;
+  }
+
+  .l-heading {
+    font-size: 3rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+}    */
